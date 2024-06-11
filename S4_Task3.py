@@ -28,7 +28,7 @@ while n != 0:
     n = int(input('Введите неотриц-целое-число: '))
     if max_number < n:
         max_number = n
-print(max_number)
+print(f'Максимальное число среди введённых: {max_number}')
 
 # Решение ч/з рекурсию:
 def func(n, max_number):
